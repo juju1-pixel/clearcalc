@@ -6,19 +6,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A10000000000000000000001 /* ClearCalcApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000011 /* ClearCalcApp.swift */; };
-		A10000000000000000000002 /* CalculatorEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000012 /* CalculatorEngine.swift */; };
-		A10000000000000000000004 /* RemoteConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000015 /* RemoteConfig.swift */; };
-		A10000000000000000000005 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000016 /* APIClient.swift */; };
+		A10000000000000000000001 /* Q5.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000011 /* Q5.swift */; };
+		A10000000000000000000002 /* D8.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000012 /* D8.swift */; };
+		A10000000000000000000004 /* W4.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000015 /* W4.swift */; };
+		A10000000000000000000005 /* J6.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000016 /* J6.swift */; };
 		A10000000000000000000003 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000013 /* Assets.xcassets */; };
 		A10000000000000000000006 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000017 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		A10000000000000000000011 /* ClearCalcApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClearCalcApp.swift; sourceTree = "<group>"; };
-		A10000000000000000000012 /* CalculatorEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorEngine.swift; sourceTree = "<group>"; };
-		A10000000000000000000015 /* RemoteConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteConfig.swift; sourceTree = "<group>"; };
-		A10000000000000000000016 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		A10000000000000000000011 /* Q5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q5.swift; sourceTree = "<group>"; };
+		A10000000000000000000012 /* D8.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = D8.swift; sourceTree = "<group>"; };
+		A10000000000000000000015 /* W4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = W4.swift; sourceTree = "<group>"; };
+		A10000000000000000000016 /* J6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = J6.swift; sourceTree = "<group>"; };
 		A10000000000000000000013 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A10000000000000000000014 /* ClearCalc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClearCalc.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A10000000000000000000017 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -30,7 +30,7 @@
 
 /* Begin PBXGroup section */
 		A10000000000000000000031 = {isa = PBXGroup; children = (A10000000000000000000032 /* ClearCalc */, A10000000000000000000033 /* Products */); sourceTree = "<group>"; };
-		A10000000000000000000032 /* ClearCalc */ = {isa = PBXGroup; children = (A10000000000000000000011 /* ClearCalcApp.swift */, A10000000000000000000012 /* CalculatorEngine.swift */, A10000000000000000000015 /* RemoteConfig.swift */, A10000000000000000000016 /* APIClient.swift */, A10000000000000000000013 /* Assets.xcassets */, A10000000000000000000017 /* LaunchScreen.storyboard */); path = ClearCalc; sourceTree = "<group>"; };
+		A10000000000000000000032 /* ClearCalc */ = {isa = PBXGroup; children = (A10000000000000000000011 /* Q5.swift */, A10000000000000000000012 /* D8.swift */, A10000000000000000000015 /* W4.swift */, A10000000000000000000016 /* J6.swift */, A10000000000000000000013 /* Assets.xcassets */, A10000000000000000000017 /* LaunchScreen.storyboard */); path = ClearCalc; sourceTree = "<group>"; };
 		A10000000000000000000033 /* Products */ = {isa = PBXGroup; children = (A10000000000000000000014 /* ClearCalc.app */); name = Products; sourceTree = "<group>"; };
 /* End PBXGroup section */
 
@@ -47,7 +47,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		A10000000000000000000022 /* Sources */ = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (A10000000000000000000001 /* ClearCalcApp.swift in Sources */, A10000000000000000000002 /* CalculatorEngine.swift in Sources */, A10000000000000000000004 /* RemoteConfig.swift in Sources */, A10000000000000000000005 /* APIClient.swift in Sources */,); runOnlyForDeploymentPostprocessing = 0; };
+		A10000000000000000000022 /* Sources */ = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (A10000000000000000000001 /* Q5.swift in Sources */, A10000000000000000000002 /* D8.swift in Sources */, A10000000000000000000004 /* W4.swift in Sources */, A10000000000000000000005 /* J6.swift in Sources */,); runOnlyForDeploymentPostprocessing = 0; };
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */

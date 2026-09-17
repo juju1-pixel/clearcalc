@@ -5,13 +5,13 @@
 - 延用現有計算器圖標與深藍、藍紫色調。
 - 中央顯示 ClearCalc 與「讓數字慢一點」。
 - 加號、時鐘、雙人與左右箭頭環繞中央 Logo，已移除四個功能名稱文字。
-- 系統 LaunchScreen 顯示靜態起始排版；App 啟動後使用同一份 storyboard，四個圖標保持正向、環繞 Logo 一圈（1.2 秒），再淡出（0.25 秒）進入原有計算器或已保存的 WebView。
+- 系統 LaunchScreen 顯示靜態起始排版；App 啟動後使用同一份 storyboard，四個圖標保持正向、環繞 Logo 一圈（1.2 秒），再淡出（0.25 秒）進入計算器。
 - 每次 App 冷啟動播放一次，回到前景不重新播放；啟用「減少動態效果」時跳過旋轉。動畫無網路依賴，首頁可在下方準備，動畫期間不接受首頁點擊。
 
 ## 檔案
 
 - `ClearCalc/LaunchScreen.storyboard`：完整啟動畫面，使用 Auto Layout；tag 100 是環繞容器，101–104 是圖標。
-- `ClearCalc/ClearCalcApp.swift`：LaunchTransition / LaunchAnimation / L8，使用 UIKit child view controller 載入相同 storyboard 並執行四段 90 度旋轉。
+- `ClearCalc/Q5.swift`：使用 UIKit child view controller 載入相同 storyboard 並執行四段 90 度旋轉。
 - `docs/launch-animation.mp4`：模擬器實錄的啟動動畫預覽。
 - `ClearCalc/Assets.xcassets/LaunchBackground.imageset/LaunchBackground.png`：imagegen 產生的背景，853×1844。
 - `ClearCalc/Assets.xcassets/LaunchMark.imageset/LaunchMark.png`：現有 AppIcon 的原樣複本；沒有改動原圖標。
