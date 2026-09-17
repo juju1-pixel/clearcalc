@@ -1,0 +1,8 @@
+.DS_Store
+xcuserdata/
+*.xcuserstate
+DerivedData/
+build/
+HANDOFF.md
+移機開發說明.md
+docs/launch-animation.mp4
